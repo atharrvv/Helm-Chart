@@ -1,0 +1,12 @@
+name: "python-production-application"
+
+# Deployment
+deployment:
+  image: "docker.io/eatherv/python-application"
+  tag: "0.0.5"
+  replicas: "6"
+  namespace: "production"
+
+# Service
+service:
+  type: "ClusterIP"
