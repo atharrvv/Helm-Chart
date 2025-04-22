@@ -1,4 +1,4 @@
-name: "python-application"
+name: "python-staging-application"
 
 # Deployment
 deployment:
