@@ -3,7 +3,7 @@ name: "python-staging-application"
 # Deployment
 deployment:
   image: "docker.io/eatherv/python-application"
-  tag: "latest"
+  tag: "0.0.9"
   replicas: "3"
   namespace: "staging"
 
